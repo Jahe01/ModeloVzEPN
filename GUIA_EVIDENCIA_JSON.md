@@ -77,7 +77,7 @@ Si respondes **"n"**, usará **TODAS** las muestras disponibles:
 - Para **resultados publicables**
 - Cuando tienes **tiempo suficiente** (6-12 horas)
 
-## 🎓 RECOMENDACIONES PARA TU TESIS
+## 🎓 RECOMENDACIONES 
 
 ### 1. Fase de Desarrollo
 ```bash
@@ -99,7 +99,7 @@ python detector_zenodo_ultra_v3.py
 - Tiempo de entrenamiento razonable
 - Bueno para comparaciones
 
-### 3. Fase Final (Para Tesis)
+### 3. Fase Final (Recomendada)
 ```bash
 python detector_zenodo_ultra_v3.py
 # Respuesta: n
