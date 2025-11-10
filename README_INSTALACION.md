@@ -153,7 +153,7 @@ dataset/
 
 **Opción 1: Zenodo (Oficial)**
 1. Visitar: https://zenodo.org/
-2. Buscar: "Latin American Voice Spoofing" o "Voice Anti-Spoofing Spanish"
+2. Buscar: "Latin American Voice Spoofing" o "Voice Anti-Spoofing Spanish" https://zenodo.org/records/7370805 
 3. Descargar el dataset completo (varios GB)
 4. Extraer en una carpeta local
 
