@@ -480,9 +480,9 @@ Antes de ejecutar `detector_zenodo_ultra_v3.py`, verifica:
 
 ---
 
-## 🎓 PARA TU TESIS
+## 🎓 Importante
 
-### Archivos Importantes para Incluir
+### Archivos Importantes
 
 1. **Metodología:**
    - `detector_zenodo_ultra_v3.py` (código fuente)
