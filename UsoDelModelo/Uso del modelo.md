@@ -28,7 +28,6 @@ python probar_modelo.py
 
 ## 📊 Resultados
 
-- **Visualizaciones**: Se guardan en `visualizaciones/`
 - **Historial**: Exportable a CSV o JSON
 - **Métricas**: Duración, confianza, probabilidades
 
@@ -38,3 +37,4 @@ python probar_modelo.py
 # Si hay error de NumPy/scikit-learn:
 pip install numpy==2.1.0 scikit-learn==1.7.2
 ```
+
