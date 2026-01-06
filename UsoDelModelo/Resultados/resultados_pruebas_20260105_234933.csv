@@ -1,0 +1,11 @@
+num,condicion,duracion_seg,veredicto,prob_real,prob_fake,confianza,hora,archivo
+1,"Audio con sonido de computador, ruido de fondo, voz normal",10.00,REAL,74.61,25.39,74.61,22:55:33,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_225459.wav
+2,"Voz solo desde la computadora, voz normal sin leves ruidos de fondo.",10.00,DEEPFAKE,41.81,58.19,58.19,22:56:40,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_225622.wav
+3,Voz normal de lejos con mucho ruido de lluvia de fondo,10.00,REAL,79.94,20.06,79.94,22:58:41,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_225824.wav
+4,"Voz normal hablando con muletillas, risas, etc",10.00,REAL,64.71,35.29,64.71,23:00:00,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_225943.wav
+5,"Voz normal, leer normal un texto",10.00,DEEPFAKE,30.57,69.43,69.43,23:03:02,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_230245.wav
+6,Voz Sintética con topmediai,10.00,DEEPFAKE,31.48,68.52,68.52,23:11:11,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_231045.wav
+7,Voz sintetica - voicv.com,10.00,DEEPFAKE,31.97,68.03,68.03,23:18:06,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_231742.wav
+8,Voz sintetica --huggingface,10.00,DEEPFAKE,33.40,66.60,66.60,23:35:15,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_233449.wav
+9,Voz sintetica --huggingface- ruido de fondo,10.00,DEEPFAKE,47.58,52.42,52.42,23:36:29,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_233608.wav
+10,Voz sintetica --veed.io,10.00,DEEPFAKE,37.40,62.60,62.60,23:49:00,C:\Users\johan\AppData\Local\Temp\grabacion_20260105_234832.wav

@@ -1,0 +1,126 @@
+{
+    "fecha_exportacion": "2026-01-05T23:49:33.737802",
+    "total_pruebas": 10,
+    "pruebas": [
+        {
+            "condicion": "Audio con sonido de computador, ruido de fondo, voz normal",
+            "duracion": 10.0,
+            "is_deepfake": false,
+            "prob_real": 74.60636557092086,
+            "prob_fake": 25.393634429079132,
+            "confianza": 74.60636557092086,
+            "nivel_confianza": "Moderada",
+            "hora": "22:55:33",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_225459.wav"
+        },
+        {
+            "condicion": "Voz solo desde la computadora, voz normal sin leves ruidos de fondo.",
+            "duracion": 10.0,
+            "is_deepfake": true,
+            "prob_real": 41.81201833068807,
+            "prob_fake": 58.18798166931193,
+            "confianza": 58.18798166931193,
+            "nivel_confianza": "Baja",
+            "hora": "22:56:40",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_225622.wav"
+        },
+        {
+            "condicion": "Voz normal de lejos con mucho ruido de lluvia de fondo",
+            "duracion": 10.0,
+            "is_deepfake": false,
+            "prob_real": 79.93886789859268,
+            "prob_fake": 20.06113210140732,
+            "confianza": 79.93886789859268,
+            "nivel_confianza": "Moderada",
+            "hora": "22:58:41",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_225824.wav"
+        },
+        {
+            "condicion": "Voz normal hablando con muletillas, risas, etc",
+            "duracion": 10.0,
+            "is_deepfake": false,
+            "prob_real": 64.70977751655109,
+            "prob_fake": 35.29022248344892,
+            "confianza": 64.70977751655109,
+            "nivel_confianza": "Baja",
+            "hora": "23:00:00",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_225943.wav"
+        },
+        {
+            "condicion": "Voz normal, leer normal un texto",
+            "duracion": 10.0,
+            "is_deepfake": true,
+            "prob_real": 30.57062095502615,
+            "prob_fake": 69.42937904497384,
+            "confianza": 69.42937904497384,
+            "nivel_confianza": "Baja",
+            "hora": "23:03:02",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_230245.wav"
+        },
+        {
+            "condicion": "Voz Sintética con topmediai",
+            "duracion": 10.0,
+            "is_deepfake": true,
+            "prob_real": 31.484854061828603,
+            "prob_fake": 68.5151459381714,
+            "confianza": 68.5151459381714,
+            "nivel_confianza": "Baja",
+            "hora": "23:11:11",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_231045.wav"
+        },
+        {
+            "condicion": "Voz sintetica - voicv.com",
+            "duracion": 10.0,
+            "is_deepfake": true,
+            "prob_real": 31.969774880480095,
+            "prob_fake": 68.03022511951991,
+            "confianza": 68.03022511951991,
+            "nivel_confianza": "Baja",
+            "hora": "23:18:06",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_231742.wav"
+        },
+        {
+            "condicion": "Voz sintetica --huggingface",
+            "duracion": 10.0,
+            "is_deepfake": true,
+            "prob_real": 33.397819509475454,
+            "prob_fake": 66.60218049052455,
+            "confianza": 66.60218049052455,
+            "nivel_confianza": "Baja",
+            "hora": "23:35:15",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_233449.wav"
+        },
+        {
+            "condicion": "Voz sintetica --huggingface- ruido de fondo",
+            "duracion": 10.0,
+            "is_deepfake": true,
+            "prob_real": 47.582979057252636,
+            "prob_fake": 52.417020942747364,
+            "confianza": 52.417020942747364,
+            "nivel_confianza": "Baja",
+            "hora": "23:36:29",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_233608.wav"
+        },
+        {
+            "condicion": "Voz sintetica --veed.io",
+            "duracion": 10.0,
+            "is_deepfake": true,
+            "prob_real": 37.401658172008304,
+            "prob_fake": 62.598341827991696,
+            "confianza": 62.598341827991696,
+            "nivel_confianza": "Baja",
+            "hora": "23:49:00",
+            "fecha": "2026-01-05",
+            "archivo": "C:\\Users\\johan\\AppData\\Local\\Temp\\grabacion_20260105_234832.wav"
+        }
+    ]
+}
