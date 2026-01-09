@@ -1,0 +1,147 @@
+{
+    "metadata": {
+        "fecha_entrenamiento": "2025-11-15 21:17:41",
+        "timestamp": "2025-11-15T21:17:41.128498",
+        "version_modelo": "Detector Zenodo Ultra V3",
+        "dataset": "Latin-American Voice Anti-Spoofing Dataset",
+        "num_muestras_entrenamiento": 77452,
+        "num_muestras_prueba": 19364,
+        "num_caracteristicas_extraidas": 1065,
+        "num_caracteristicas_finales_pca": 1,
+        "distribucion_clases": {
+            "entrenamiento": {
+                "real": 18253,
+                "synthetic": 59199,
+                "ratio": 0.7643314569023395
+            },
+            "prueba": {
+                "real": 4563,
+                "synthetic": 14801,
+                "ratio": 0.7643565379053915
+            }
+        }
+    },
+    "metricas_principales": {
+        "accuracy": 0.6483164635405908,
+        "balanced_accuracy": 0.6787659522090148,
+        "auc_roc": 0.7289936697331209,
+        "mcc": 0.30430420877010345,
+        "cohen_kappa": 0.2680544015483658,
+        "average_precision": 0.8940301117875411,
+        "g_mean": 0.6763182779853396
+    },
+    "metricas_sensibilidad": {
+        "sensitivity_recall_tpr": 0.6211742449834471,
+        "specificity_tnr": 0.7363576594345825,
+        "precision_ppv": 0.8842935462152544,
+        "npv": 0.3747072599531616,
+        "f1_score": 0.7297404555917136,
+        "f2_score": 0.6604790161060904
+    },
+    "metricas_seguridad_criticas": {
+        "fnr_false_negative_rate": 0.3788257550165529,
+        "fpr_false_positive_rate": 0.26364234056541747,
+        "eer_equal_error_rate": 0.3212340477909852,
+        "interpretacion_fnr": "CRÍTICO",
+        "interpretacion_fpr": "ALTO",
+        "nivel_seguridad_general": "REENTRENAMIENTO REQUERIDO"
+    },
+    "matriz_confusion": {
+        "true_positives": 9194,
+        "true_negatives": 3360,
+        "false_positives": 1203,
+        "false_negatives": 5607,
+        "total_predicciones": 19364,
+        "porcentajes": {
+            "tp_percent": 47.479859533154304,
+            "tn_percent": 17.35178682090477,
+            "fp_percent": 6.212559388556083,
+            "fn_percent": 28.955794257384838
+        }
+    },
+    "cross_validation": {
+        "num_folds": 5,
+        "mean_cv_score": 0.6504416129667995,
+        "std_cv_score": 0.003333730214887446,
+        "cv_scores_individual": [
+            0.6480537086049964,
+            0.6490220127816151,
+            0.6480955455132343,
+            0.6500968366688186,
+            0.6569399612653325
+        ],
+        "intervalo_confianza_95": "0.6504 ± 0.0067"
+    },
+    "comparativa_literatura": {
+        "modelo_v3": {
+            "accuracy": 0.6483164635405908,
+            "num_caracteristicas": 800,
+            "num_algoritmos": 10,
+            "dataset_size": 80816,
+            "dataset_origen": "Latin-American Spanish"
+        },
+        "zhang_2023": {
+            "accuracy": 0.912,
+            "num_caracteristicas": 180,
+            "num_algoritmos": 1,
+            "dataset_size": 25380,
+            "mejora_v3": -28.91266847142645
+        },
+        "wu_2022": {
+            "accuracy": 0.895,
+            "num_caracteristicas": 240,
+            "num_algoritmos": 3,
+            "dataset_size": 15000,
+            "mejora_v3": -27.562406308313882
+        },
+        "kong_2021": {
+            "accuracy": 0.887,
+            "num_caracteristicas": 120,
+            "num_algoritmos": 1,
+            "dataset_size": 20000,
+            "mejora_v3": -26.90907964593114
+        }
+    },
+    "configuracion_modelo": {
+        "algoritmos_ensemble": [
+            "RandomForest",
+            "GradientBoosting",
+            "ExtraTrees",
+            "SVM_RBF",
+            "SVM_Poly",
+            "MLP",
+            "AdaBoost",
+            "Bagging_RF",
+            "Bagging_ET",
+            "Stacking_LogisticRegression"
+        ],
+        "feature_selection": "SelectKBest with mutual_info",
+        "dimensionality_reduction": "PCA",
+        "scaling": "RobustScaler",
+        "test_size": 0.2,
+        "random_state": 42
+    },
+    "caracteristicas_extraidas": {
+        "categorias": [
+            "MFCC (40 coeficientes)",
+            "Espectrograma Mel (128 bandas)",
+            "Chroma (12 características)",
+            "Spectral Contrast (7 bandas)",
+            "Tonnetz (6 características)",
+            "Zero Crossing Rate",
+            "Spectral Centroid",
+            "Spectral Bandwidth",
+            "Spectral Rolloff",
+            "RMS Energy",
+            "Análisis Wavelet multi-nivel",
+            "Coherencia de Fase",
+            "Microestructura Temporal",
+            "Detección de Artefactos GAN",
+            "Envolvente Espectral",
+            "Periodicidad Glottal",
+            "Turbulencia Vocal",
+            "Naturalidad Prosódica"
+        ],
+        "total_features": 800
+    }
+}
